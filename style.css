@@ -4,3 +4,68 @@
     box-sizing: border-box;
     font-family: "itim", serif;
 }
+
+.center{
+    display: flex;
+    padding: 0 2%;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+section.main{
+    background-image: url("img/bg.svg");
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+
+section.marcas img{
+    width: calc(100% / 5);
+}
+
+section.marcas{
+    padding: 100px 0;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    width: 50%;
+}
+
+.itensmenu{
+    width: 50%;
+}
+
+.itensmenu a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.itensmenu a:hover{
+    border-bottom: 2px solid #FFDD33;
+}
+.itensmenu a.contact-btn{
+    background-color: #0337d1;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.itensmenu a.contact-btn:hover{
+    border: 0;
+}
+
+.mockup{
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
