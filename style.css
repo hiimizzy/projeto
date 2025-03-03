@@ -30,6 +30,36 @@ section.marcas{
     padding: 100px 0;
 }
 
+section.nos{
+    padding: 40px 0;
+    background-color: #FBFCFE;
+}
+
+section.nos > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+}
+section.nos > .center > p{
+    font-size: 16px;
+    color: #ccc;
+    text-align: center;
+    width: 100%;
+}
+
+.deferencial{
+    display: flex;
+    margin-top: 50px;
+}
+
+.box-dif{
+    box-shadow: 0px 20px 40px #FBFCFE;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
 .menu{
     display: flex;
     width: 100%;
