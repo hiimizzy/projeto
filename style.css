@@ -24,6 +24,7 @@ section.main{
 
 section.marcas img{
     width: calc(100% / 5);
+
 }
 
 section.marcas{
@@ -93,9 +94,73 @@ section.nos > .center > p{
 }
 
 .mockup{
+    
     display: block;
     width: 100%;
     color: white;
     text-align: center;
     padding-top: 90px;
+}
+
+section.cta{
+    background-image: url("img/banner_meio.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+}
+
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+section.cta h2{
+    font-size: 30px;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #FFDD33;
+    color: #0337d1;
+    text-decoration: none;
+}
+
+section.check a{
+    text-decoration: none;
+    background: #0337d1;
+    color: #FFDD33;
+    font-size: 20px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px){
+    .deferencial{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .box-dif{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    section.marcas{
+        text-align: center;
+    }
+    section.marcas img{
+        width: 100%;
+        max-width: 100%;
+    }
 }
